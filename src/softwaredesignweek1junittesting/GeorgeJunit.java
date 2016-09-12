@@ -12,7 +12,7 @@ public class GeorgeJunit {
     public void testPrintMessage() {
         Date date1 = new Date(2006, 3, 26);
         Date date2 = new Date(2006, 3, 1);
-        assertEquals(41, date1.daysTo(date2));
+        assertEquals(25, date1.daysTo(date2));
     }
 
     @Test
